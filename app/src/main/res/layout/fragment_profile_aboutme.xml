@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textSize="30dp"
+            android:textColor="@color/purple"
+            android:fontFamily="@font/primary_bold"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Individual characteristics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/primary_regular"
+            android:lineSpacingExtra="5dp"
+            android:text="Hello and have a good time\n
+If I want to tell about my personal characteristics
+I have to tell you that: I am an introvert but social to a good extent.
+Interested in learning different things, especially programming.
+As my friends say, I am a kind and compassionate person.
+People around me know me as a hard worker."
+            android:textColor="@color/purple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <View
+            android:layout_marginBottom="15dp"
+            android:id="@+id/viewww"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/viewcolor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        </View>
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="@color/orange"
+            android:fontFamily="@font/primary_bold"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/viewww"
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bad features"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="269dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_22"
+            android:textColor="@color/orange"
+            android:lineSpacingExtra="5dp"
+            android:fontFamily="@font/primary_regular"
+            android:layout_marginTop="20dp"
+            android:text="In addition to good qualities, everyone also has some bad qualities.\n
+For example, my biggest bad feature is that I get very obsessed with what I'm doing and get locked in a lot of ways.
+This bothers me and others may be bothered too.
+But I'm trying to fix it... (:
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <View
+            android:layout_marginBottom="15dp"
+            android:id="@+id/vieww"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/viewcolor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_22">
+
+        </View>
+
+        <TextView
+            android:id="@+id/txt_222"
+            android:textSize="30sp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/primary_bold"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vieww"
+            android:text="interests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:text="If we factor the interest in Android programming,
+
+I am a person interested in art.
+Most of my interest is related to music
+In particular, rap music can be mentioned.
+I also read freestyle on Instagram
+If you want, you can follow the work from my page with the address (@amirapfa).
+Among my other interests, we can mention (dance, painting).
+"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/primary_regular"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
